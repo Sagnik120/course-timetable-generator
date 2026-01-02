@@ -1,7 +1,7 @@
 SUBJECT_LIST = [
     "Complexity Theory",
-    "Advanced Algorithms",
-    #"Advanced Architecture and OS",
+    #"Advanced Algorithms",
+    "Advanced Architecture and OS",
     "Deep Learning",
     "Computer Graphics",
     "Natural Language Understanding",
