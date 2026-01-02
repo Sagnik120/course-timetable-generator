@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Timetable</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+</head>
+<body>
+
+<h2>Weekly Course Timetable</h2>
+
+<!-- THIS ID IS CRITICAL -->
+<div id="timetable">
+<table id="timetable-table">
+   <thead>
+        <tr>
+            <th>Day / Time</th>
+            {% for slot in slots %}
+                <th>{{ slot }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+
+    {% for day in days %}
+    <tr>
+        <th>{{ day }}</th>
+        {% for slot in slots %}
+            <td 
+            {% if slot == "01:00 - 01:50" %}
+            class="lunch"
+            {% elif not (timetable.get(day) and timetable[day].get(slot)) %}
+                class="empty"
+            {% endif %}>
+            {% if timetable.get(day) and timetable[day].get(slot) %}
+                <b>{{ timetable[day][slot].subject }}</b><br>
+                <small>{{ timetable[day][slot].faculty }}</small><br>
+                {% if timetable[day][slot].venue %}
+                    <small><i>{{ timetable[day][slot].venue }}</i></small>
+                {% endif %}
+            {% elif slot == "01:00 - 01:50" %}
+                <b>Lunch / Break</b>
+            {% else %}
+                —
+            {% endif %}
+        </td>
+
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+</div>
+
+<br>
+
+<!-- BUTTONS -->
+<div class="button-group">
+    <button type="button" onclick="downloadImage()">Download as Image</button>
+    <button type="button" onclick="downloadPDF()">Download as PDF</button>
+</div>
+
+
+<!-- LIBRARIES -->
+<script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+<script src="{{ url_for('static', filename='js/download.js') }}"></script>
+
+</body>
+</html>
