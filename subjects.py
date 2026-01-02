@@ -1,7 +1,7 @@
 SUBJECT_LIST = [
     "Complexity Theory",
     "Advanced Algorithms",
-    "Advanced Architecture and OS",
+    #"Advanced Architecture and OS",
     "Deep Learning",
     "Computer Graphics",
     "Natural Language Understanding",
@@ -9,7 +9,7 @@ SUBJECT_LIST = [
     "Computer Vision",
     "Advanced Machine Learning",
     "Speech Understanding",
-    "ML-Ops and DL-Ops",
+    #"ML-Ops and DL-Ops",
     "Introduction to Blockchain",
     "Virtualization and Cloud Computing"
 ]
@@ -64,7 +64,7 @@ TIMETABLE = {
         "11:00 - 11:50": {
             "subject": "Complexity Theory",
             "faculty": "Vimal Raj Sharma",
-            "venue": ""
+            "venue": "LHC 2 102"
         },
         "02:00 - 02:50": {
             "subject": "Advanced Architecture and OS",
@@ -74,12 +74,12 @@ TIMETABLE = {
         "03:00 - 03:50": {
             "subject": "Deep Learning",
             "faculty": "Angshuman Paul",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "06:00 - 07:30": {   # ✅ UPDATED NLU
             "subject": "Natural Language Understanding",
             "faculty": "Anand Mishra",
-            "venue": "LHB-308"
+            "venue": "LHC 1 308"
         }
     },
 
@@ -87,7 +87,7 @@ TIMETABLE = {
         "02:00 - 02:50": {
             "subject": "Deep Learning",
             "faculty": "Angshuman Paul",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "03:00 - 03:50": {
             "subject": "Computer Graphics",
@@ -97,7 +97,7 @@ TIMETABLE = {
         "04:00 - 04:50": {
             "subject": "Computer Vision",
             "faculty": "Deepak Mishra",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "05:00 - 05:50": {
             "subject": "Ethics",
@@ -120,7 +120,7 @@ TIMETABLE = {
         "11:00 - 11:50": {
             "subject": "Complexity Theory",
             "faculty": "Vimal Raj Sharma",
-            "venue": ""
+            "venue": "LHC 2 102"
         },
         "02:00 - 02:50": {
             "subject": "Advanced Architecture and OS",
@@ -138,17 +138,17 @@ TIMETABLE = {
         "11:00 - 11:50": {
             "subject": "Complexity Theory",
             "faculty": "Vimal Raj Sharma",
-            "venue": ""
+            "venue": "LHC 2 102"
         },
         "02:00 - 02:50": {
             "subject": "Deep Learning",
             "faculty": "Angshuman Paul",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "03:00 - 03:50": {
             "subject": "Computer Vision",
             "faculty": "Deepak Mishra",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "05:00 - 05:50": {
             "subject": "Introduction to Blockchain",
@@ -161,7 +161,7 @@ TIMETABLE = {
         "02:00 - 02:50": {   # ✅ UPDATED NLU
             "subject": "Natural Language Understanding",
             "faculty": "Anand Mishra",
-            "venue": "LHB-308"
+            "venue": "LHC 1 308"
         },
         "03:00 - 03:50": {
             "subject": "Virtualization and Cloud Computing",
