@@ -11,7 +11,8 @@ SUBJECT_LIST = [
     "Speech Understanding",
     "ML-Ops and DL-Ops",
     "Introduction to Blockchain",
-    "Virtualization and Cloud Computing"
+    "Virtualization and Cloud Computing",
+    "Ethics and Professional Life"
 ]
 
 
@@ -100,10 +101,10 @@ TIMETABLE = {
             "faculty": "Deepak Mishra",
             "venue": "LHC 1 308"
         },
-        "05:00 - 05:50": {
-            "subject": "Ethics",
-            "faculty": "—",
-            "venue": ""
+         "05:00 - 05:50": {
+        "subject": "Ethics and Professional Life",
+        "faculty": "George K. J.",
+        "venue": "LHC 110"
         },
         "06:00 - 07:30": {
             "subject": "Virtualization and Cloud Computing",
