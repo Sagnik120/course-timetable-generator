@@ -43,7 +43,7 @@ TIMETABLE = {
         "03:00 - 03:50": {
             "subject": "Computer Graphics",
             "faculty": "Hardik Jain",
-            "venue": "LHC 106"
+            "venue": "LHC 1 106"
         },
         "04:00 - 04:50": {
             "subject": "Computer Vision",
@@ -53,7 +53,7 @@ TIMETABLE = {
         "06:00 - 07:30": {
             "subject": "Speech Understanding",
             "faculty": "Richa Singh",
-            "venue": "LHC 105"
+            "venue": "LHC 1 105"
         }
     },
 
@@ -94,7 +94,7 @@ TIMETABLE = {
         "03:00 - 03:50": {
             "subject": "Computer Graphics",
             "faculty": "Hardik Jain",
-            "venue": "LHC 106"
+            "venue": "LHC 1 106"
         },
         "04:00 - 04:50": {
             "subject": "Computer Vision",
@@ -104,7 +104,7 @@ TIMETABLE = {
          "05:00 - 05:50": {
         "subject": "Ethics and Professional Life",
         "faculty": "George K. J.",
-        "venue": "LHC 110"
+        "venue": "LHC 1 110"
         },
         "06:00 - 07:30": {
             "subject": "Virtualization and Cloud Computing",
@@ -173,7 +173,7 @@ TIMETABLE = {
         "06:00 - 07:30": {
             "subject": "Machine Learning with Big Data",
             "faculty": "Dip Sankar Banerjee",
-            "venue": "LHC 105"
+            "venue": "LHC 1 105"
         }
     }
 }
