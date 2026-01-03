@@ -172,9 +172,9 @@ TIMETABLE = {
             "venue": ""
         },
         "02:00 - 02:50": {
-            "subject": "ML-Ops and DL-Ops",
-            "faculty": "Mayank Vatsa",
-            "venue": ""
+            "subject": "Natural Language Understanding",
+            "faculty": "Anand Mishra",
+            "venue": "LHC 1 308"
         },
         "03:00 - 03:50": {
             "subject": "Virtualization and Cloud Computing",
