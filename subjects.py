@@ -82,7 +82,13 @@ TIMETABLE = {
             "subject": "ML-Ops and DL-Ops",
             "faculty": "Mayank Vatsa",
             "venue": ""
+        },
+        "06:00 - 07:30": {
+            "subject": "Natural Language Understanding",
+            "faculty": "Anand Mishra",
+            "venue": "LHC 1 308"
         }
+
     },
 
     "Wednesday": {
@@ -160,6 +166,11 @@ TIMETABLE = {
     },
 
     "Saturday": {
+        "02:00 - 02:50": {
+            "subject": "ML-Ops and DL-Ops",
+            "faculty": "Mayank Vatsa",
+            "venue": ""
+        },
         "02:00 - 02:50": {
             "subject": "ML-Ops and DL-Ops",
             "faculty": "Mayank Vatsa",
