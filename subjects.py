@@ -1,15 +1,15 @@
 SUBJECT_LIST = [
     "Complexity Theory",
-    #"Advanced Algorithms",
+    "Advanced Algorithms",
     "Advanced Architecture and OS",
     "Deep Learning",
     "Computer Graphics",
     "Natural Language Understanding",
     "Machine Learning with Big Data",
     "Computer Vision",
-    "Advanced Machine Learning",
+    #"Advanced Machine Learning",
     "Speech Understanding",
-    #"ML-Ops and DL-Ops",
+    "ML-Ops and DL-Ops",
     "Introduction to Blockchain",
     "Virtualization and Cloud Computing"
 ]
@@ -32,6 +32,7 @@ SLOTS = [
 ]
 
 TIMETABLE = {
+
     "Monday": {
         "02:00 - 02:50": {
             "subject": "Advanced Architecture and OS",
@@ -41,17 +42,17 @@ TIMETABLE = {
         "03:00 - 03:50": {
             "subject": "Computer Graphics",
             "faculty": "Hardik Jain",
-            "venue": ""
+            "venue": "LHC 106"
         },
         "04:00 - 04:50": {
             "subject": "Computer Vision",
             "faculty": "Deepak Mishra",
-            "venue": ""
+            "venue": "LHC 1 308"
         },
         "06:00 - 07:30": {
             "subject": "Speech Understanding",
             "faculty": "Richa Singh",
-            "venue": ""
+            "venue": "LHC 105"
         }
     },
 
@@ -76,10 +77,10 @@ TIMETABLE = {
             "faculty": "Angshuman Paul",
             "venue": "LHC 1 308"
         },
-        "06:00 - 07:30": {   # ✅ UPDATED NLU
-            "subject": "Natural Language Understanding",
-            "faculty": "Anand Mishra",
-            "venue": "LHC 1 308"
+        "06:00 - 07:30": {
+            "subject": "ML-Ops and DL-Ops",
+            "faculty": "Mayank Vatsa",
+            "venue": ""
         }
     },
 
@@ -92,7 +93,7 @@ TIMETABLE = {
         "03:00 - 03:50": {
             "subject": "Computer Graphics",
             "faculty": "Hardik Jain",
-            "venue": ""
+            "venue": "LHC 106"
         },
         "04:00 - 04:50": {
             "subject": "Computer Vision",
@@ -128,9 +129,9 @@ TIMETABLE = {
             "venue": ""
         },
         "03:00 - 03:50": {
-            "subject": "Computer Graphics",
-            "faculty": "Hardik Jain",
-            "venue": ""
+            "subject": "Advanced Algorithms",
+            "faculty": "Pallavi Jain",
+            "venue": "CS 101"
         }
     },
 
@@ -158,10 +159,10 @@ TIMETABLE = {
     },
 
     "Saturday": {
-        "02:00 - 02:50": {   # ✅ UPDATED NLU
-            "subject": "Natural Language Understanding",
-            "faculty": "Anand Mishra",
-            "venue": "LHC 1 308"
+        "02:00 - 02:50": {
+            "subject": "ML-Ops and DL-Ops",
+            "faculty": "Mayank Vatsa",
+            "venue": ""
         },
         "03:00 - 03:50": {
             "subject": "Virtualization and Cloud Computing",
@@ -171,7 +172,7 @@ TIMETABLE = {
         "06:00 - 07:30": {
             "subject": "Machine Learning with Big Data",
             "faculty": "Dip Sankar Banerjee",
-            "venue": ""
+            "venue": "LHC 105"
         }
     }
 }
